@@ -148,8 +148,8 @@ window.MING_I18N = {
     "en": "Real-world scenarios"
   },
   "t037": {
-    "zh": "覆盖聊天、政务、健康、知识、本地生活及高噪场景。五领域平均错误率为 1.67，在图中所列模型中最低；高噪集为 10.01。",
-    "en": "Evaluated on chat, government services, health, knowledge, local services, and noisy speech. The five-domain mean is 1.67, the lowest among the models shown; the noisy-speech result is 10.01."
+    "zh": "覆盖聊天、政务、健康、知识、本地生活及高噪场景。五领域平均错误率为 1.67，在图中所列模型中最低。",
+    "en": "Evaluated on chat, government services, health, knowledge, local services, and noisy speech. The five-domain mean is 1.67, the lowest among the models shown."
   },
   "t038": {
     "zh": "真实场景评测",
@@ -652,8 +652,8 @@ window.MING_I18N = {
     "en": "Closed"
   },
   "chart-domain-note": {
-    "zh": "对聊天、政务、健康、知识、本地生活的错误率等权平均，不含高噪集。",
-    "en": "Unweighted mean of chat, government, health, knowledge, and local-services errors. Noisy speech is excluded."
+    "zh": "对聊天、政务、健康、知识、本地生活的错误率等权平均。",
+    "en": "Unweighted mean of chat, government, health, knowledge, and local-services errors."
   },
   "repository-pending-title": {
     "zh": "打开 GitHub 仓库",
