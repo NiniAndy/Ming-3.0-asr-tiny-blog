@@ -706,5 +706,21 @@ window.MING_I18N = {
   "cite-link": {
     "zh": "查看 GitHub 仓库 ↗",
     "en": "View GitHub repository ↗"
+  },
+  "overview-figure-title": {
+    "zh": "ASR 综合表现",
+    "en": "ASR overview"
+  },
+  "overview-figure-subtitle": {
+    "zh": "中英文、方言与领域识别概览",
+    "en": "Chinese, English, dialect, and domain recognition"
+  },
+  "overview-figure-aria": {
+    "zh": "放大 ASR 综合表现图",
+    "en": "Enlarge the ASR overview figure"
+  },
+  "overview-figure-alt": {
+    "zh": "ASR 综合表现图",
+    "en": "ASR overview figure"
   }
 };

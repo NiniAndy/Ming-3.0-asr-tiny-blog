@@ -4,9 +4,10 @@
     "assets/audio/chinese_common_voice.wav": "978e46a482b8b2f3a2eb1ad1d5ee61b9eb0e3668e2627ec1b49d809a12bf21da",
     "assets/audio/context_same_sentence_pcm16.wav": "d4bb0b6b2a509a6cf4367bc14d3c0128495540a80478e9dcbb2c9b777cefff19",
     "assets/audio/english_common_voice.wav": "095b36c5cee7b6ffa23ee39538fd0ececab916c791013ac2d48d79214b762385",
-    "assets/images/asr-context.png": "b994753b7d1ae5cc0e900e4fe3d25a25aa97497118af527680e4786dafc25b23",
-    "assets/images/asr-domains.png": "79c5d960fe01162ae9bc420edd2f4a058bcb8a29a1e51a7b696f13d02c3fa87a",
+    "assets/images/asr-context.png": "6924bd1057aa68ef194912995c92d8ca998ef68b15ec55053f5b168da087cd32",
+    "assets/images/asr-domains.png": "31ade60fefc3a90aab51439be9d52518775710f262a5a7e5371e89ff56667a40",
     "assets/images/asr-general.png": "624d98d65546e12b1763eb157690e51e388f3db6de05ec1980ea457f4122e56d",
+    "assets/images/asr-open.png": "e05cf1897bd7eb80d64146613e18f3fb83e1e46f763443f42525ee3eddddd795",
     "assets/images/inclusionai-logo.png": "3755d2783879bd5b947d413813a5f76cd43280f21cc0a4178b7d9b766226ef87",
     "assets/images/bailing-logo.png": "2a20fd18d1700a170b73e9a85c3a6dc3ebab3ca9f42417a9522aa7451d29f20f",
     "assets/images/model.jpg": "55a45a2358cb39f250eea875c45070103edc78af6bad771ef8f7f904ab46975f"

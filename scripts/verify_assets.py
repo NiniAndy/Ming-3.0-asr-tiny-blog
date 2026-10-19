@@ -30,4 +30,4 @@ for file in page.references:assert (ROOT/file).is_file(),'Missing resource: '+fi
 manifest=json.loads((ROOT/'data/asset-manifest.json').read_text())
 for file,digest in manifest['files'].items():
     assert hashlib.sha256((ROOT/file).read_bytes()).hexdigest()==digest,'Modified source asset: '+file
-print('PASS: local resources, unique IDs, 3 audio clips, 4 capability charts, and 8 original asset hashes.')
+print(f"PASS: local resources, unique IDs, 3 audio clips, 4 capability charts, and {len(manifest['files'])} asset hashes.")
