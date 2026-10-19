@@ -1,0 +1,14 @@
+{
+  "model_documentation": "https://github.com/inclusionAI/Ming-3.0-asr",
+  "files": {
+    "assets/audio/chinese_common_voice.wav": "978e46a482b8b2f3a2eb1ad1d5ee61b9eb0e3668e2627ec1b49d809a12bf21da",
+    "assets/audio/context_same_sentence_pcm16.wav": "d4bb0b6b2a509a6cf4367bc14d3c0128495540a80478e9dcbb2c9b777cefff19",
+    "assets/audio/english_common_voice.wav": "095b36c5cee7b6ffa23ee39538fd0ececab916c791013ac2d48d79214b762385",
+    "assets/images/asr-context.png": "b994753b7d1ae5cc0e900e4fe3d25a25aa97497118af527680e4786dafc25b23",
+    "assets/images/asr-domains.png": "23c308a8f5b92553b2c02c42ca78768a05aeba91942a739118075a78077edd15",
+    "assets/images/asr-general.png": "2a30fe29a3043e1650eead2beed9add1ee6a09a8fce184b91132eee18b4ea7f4",
+    "assets/images/bailing-logo.png": "2a20fd18d1700a170b73e9a85c3a6dc3ebab3ca9f42417a9522aa7451d29f20f",
+    "assets/images/model.jpg": "55a45a2358cb39f250eea875c45070103edc78af6bad771ef8f7f904ab46975f"
+  },
+  "note": "Asset hashes identify the original model figures and demo audio."
+}

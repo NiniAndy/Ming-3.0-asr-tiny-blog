@@ -1,0 +1,154 @@
+[
+  {
+    "id": "bilingual",
+    "values": [
+      {
+        "model": "Ming-3.0-asr-tiny",
+        "value": 3.55,
+        "second": 3.99,
+        "scale": 6
+      },
+      {
+        "model": "Qwen2.5-Omni",
+        "value": 4.05,
+        "second": 5.04,
+        "scale": 6
+      },
+      {
+        "model": "Qwen3-Omni-30B-A3B",
+        "value": 3.33,
+        "second": 3.69,
+        "scale": 6
+      },
+      {
+        "model": "Qwen3-ASR-1.7B",
+        "value": 3.66,
+        "second": 4.63,
+        "scale": 6
+      },
+      {
+        "model": "Fun-ASR 1.5",
+        "value": 4.24,
+        "second": 4.3,
+        "scale": 6
+      },
+      {
+        "model": "Qwen3-ASR-Flash",
+        "value": 3.36,
+        "second": 3.72,
+        "scale": 6
+      }
+    ]
+  },
+  {
+    "id": "dialect",
+    "values": [
+      {
+        "model": "Ming-3.0-asr-tiny",
+        "value": 8.42,
+        "second": null,
+        "scale": 22
+      },
+      {
+        "model": "Qwen2.5-Omni",
+        "value": 19.82,
+        "second": null,
+        "scale": 22
+      },
+      {
+        "model": "Qwen3-Omni-30B-A3B",
+        "value": 16.36,
+        "second": null,
+        "scale": 22
+      },
+      {
+        "model": "Qwen3-ASR-1.7B",
+        "value": 15.3,
+        "second": null,
+        "scale": 22
+      },
+      {
+        "model": "Fun-ASR 1.5",
+        "value": 8.0,
+        "second": null,
+        "scale": 22
+      },
+      {
+        "model": "Qwen3-ASR-Flash",
+        "value": 13.25,
+        "second": null,
+        "scale": 22
+      }
+    ]
+  },
+  {
+    "id": "context",
+    "values": [
+      {
+        "model": "Ming-3.0-asr-tiny",
+        "value": 4.36,
+        "second": null,
+        "scale": 7
+      },
+      {
+        "model": "Qwen3-Omni-30B-A3B-Instruct",
+        "value": 4.34,
+        "second": null,
+        "scale": 7
+      },
+      {
+        "model": "Gemini-2.5-Pro",
+        "value": 6.3,
+        "second": null,
+        "scale": 7
+      },
+      {
+        "model": "Qwen3-ASR-1.7B",
+        "value": 4.23,
+        "second": null,
+        "scale": 7
+      }
+    ]
+  },
+  {
+    "id": "domain",
+    "values": [
+      {
+        "model": "Ming-3.0-asr-tiny",
+        "value": 1.67,
+        "second": null,
+        "scale": 5
+      },
+      {
+        "model": "Qwen2.5-Omni",
+        "value": 3.03,
+        "second": null,
+        "scale": 5
+      },
+      {
+        "model": "Qwen3-Omni-30B-A3B",
+        "value": 3.75,
+        "second": null,
+        "scale": 5
+      },
+      {
+        "model": "Qwen3-ASR-1.7B",
+        "value": 2.49,
+        "second": null,
+        "scale": 5
+      },
+      {
+        "model": "Fun-ASR 1.5",
+        "value": 4.14,
+        "second": null,
+        "scale": 5
+      },
+      {
+        "model": "Qwen3-ASR-Flash",
+        "value": 1.8,
+        "second": null,
+        "scale": 5
+      }
+    ]
+  }
+]
