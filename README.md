@@ -1,5 +1,7 @@
 # Ming-3.0-asr-tiny Blog
 
+Live site: [niniandy.github.io/Ming-3.0-asr-tiny-blog](https://niniandy.github.io/Ming-3.0-asr-tiny-blog/)
+
 This is the bilingual project blog for [Ming-3.0-asr-tiny](https://github.com/inclusionAI/Ming-3.0-asr). It presents the model architecture, benchmark figures, and three audio examples with inline playback. The model weights are hosted on [Hugging Face](https://huggingface.co/inclusionAI/Ming-3.0-asr-tiny).
 
 The site is plain HTML, CSS, and JavaScript. Open `index.html` locally or run:
