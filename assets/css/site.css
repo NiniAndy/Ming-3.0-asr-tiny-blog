@@ -65,6 +65,15 @@ h1{font-size:clamp(44px,6vw,78px)}h2{font-size:clamp(30px,3vw,42px)}h3{font-size
 @media(max-width:640px){body{font-size:16px}.section{padding:54px 0}.hero-intro,html[lang="en"] .hero-intro{font-size:16px}.hero-en{font-size:14px}.button{font-size:13px}.metric small,html[lang="en"] .metric small,.metric p,html[lang="en"] .metric p{font-size:12px}.intro,.sub,.sample-intro{font-size:16px}.feature h3,html[lang="en"] .feature h3{font-size:20px}.feature>p,html[lang="en"] .feature>p{font-size:15px}.cap-axis,.cap-row{grid-template-columns:125px minmax(0,1fr) 38px}.cap-model,.cap-values,.paired .cap-values{font-size:11px}.cap-chart-heading,.cap-chart-legend,.feature .cap-chart-note{font-size:12px}.sample-results dd{font-size:16px}.benchmark-figure{padding:18px}.benchmark-figure h3{font-size:18px}.benchmark-figure figcaption p{font-size:12px}.release-film{padding:40px 0 0}.release-film-card{padding:22px;border-radius:16px}.release-film-copy p{font-size:16px}}
 
 /* Release-page composition. */
+.benchmark-figures{max-width:980px;margin:0 auto}.benchmark-section .section-head{max-width:980px;margin:0 auto 36px}
+.citation-section{background:#fff;border-top:1px solid var(--line)}
+.citation-layout{display:grid;grid-template-columns:minmax(220px,.65fr) minmax(0,1.35fr);gap:62px;align-items:center}
+.citation-copy h2{margin:13px 0 18px}.citation-copy p{font-size:17px;color:var(--muted);line-height:1.8;margin:0 0 20px}
+.citation-copy .text-link{font-size:15px;font-weight:650}
+.citation-code{min-width:0;background:#102a45;border-radius:15px;overflow:hidden;box-shadow:0 18px 45px #123a691a}
+.citation-code .code-head{font-size:14px;color:#d8e8fb}.citation-code .code-head button{font-size:13px}
+.citation-code pre{font-size:14px;line-height:1.85;padding:26px;white-space:pre;overflow-x:auto}
+@media(max-width:760px){.citation-layout{grid-template-columns:1fr;gap:24px}.citation-code pre{font-size:12px;padding:20px}.citation-copy p{font-size:16px}}
 :root{--ink:#11243a;--muted:#51677d;--blue:#1467e8;--line:#dce6f0;--pale:#f4f8fc}
 .topbar{height:78px;box-shadow:0 3px 18px #12243c09}
 .brand-logo{width:36px;height:36px;border-radius:7px;object-fit:cover}

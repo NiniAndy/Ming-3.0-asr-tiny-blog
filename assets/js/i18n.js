@@ -682,5 +682,29 @@ window.MING_I18N = {
   "release-film-fallback": {
     "zh": "观看视频",
     "en": "Watch the film"
+  },
+  "cite-eyebrow": {
+    "zh": "06 / 引用",
+    "en": "06 / CITATION"
+  },
+  "cite-title": {
+    "zh": "引用本项目",
+    "en": "Cite this project"
+  },
+  "cite-description": {
+    "zh": "如果 Ming-3.0-asr-tiny 对你的研究或产品有帮助，请引用项目的 GitHub 仓库。",
+    "en": "If Ming-3.0-asr-tiny supports your research or product, cite the GitHub repository."
+  },
+  "cite-copy": {
+    "zh": "复制 BibTeX",
+    "en": "Copy BibTeX"
+  },
+  "cite-copy-aria": {
+    "zh": "复制 Ming-3.0-asr-tiny 的 BibTeX 引用",
+    "en": "Copy the Ming-3.0-asr-tiny BibTeX citation"
+  },
+  "cite-link": {
+    "zh": "查看 GitHub 仓库 ↗",
+    "en": "View GitHub repository ↗"
   }
 };
