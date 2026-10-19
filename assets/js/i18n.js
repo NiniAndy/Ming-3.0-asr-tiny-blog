@@ -344,8 +344,8 @@ window.MING_I18N = {
     "en": "Benchmarks"
   },
   "t086": {
-    "zh": "中英文、方言、高噪与上下文语音识别的评测表现，点击图片可放大查看。",
-    "en": "Results for Chinese, English, dialects, noisy speech, and context-aware ASR. Click a figure to enlarge it."
+    "zh": "中英文、方言、领域与上下文语音识别的评测表现，点击图片可放大查看。",
+    "en": "Results for Chinese, English, dialects, domains, and context-aware ASR. Click a figure to enlarge it."
   },
   "t087": {
     "zh": "所有错误率指标均越低越好。通用识别、方言与 Context ASR 分别按对应指标比较。",
@@ -364,12 +364,12 @@ window.MING_I18N = {
     "en": "Enlarge ↗"
   },
   "t091": {
-    "zh": "方言、高噪与领域识别",
-    "en": "Dialects, noise & domains"
+    "zh": "方言与领域识别",
+    "en": "Dialects & domains"
   },
   "t092": {
-    "zh": "方言、高噪与业务领域",
-    "en": "Dialects, Noise & Domains"
+    "zh": "方言与业务领域",
+    "en": "Dialects & Domains"
   },
   "t093": {
     "zh": "点击放大 ↗",
@@ -484,8 +484,8 @@ window.MING_I18N = {
     "en": "InclusionAI home"
   },
   "t121": {
-    "zh": "百灵 Bailing 标志",
-    "en": "Bailing logo"
+    "zh": "inclusionAI 标志",
+    "en": "inclusionAI logo"
   },
   "t122": {
     "zh": "页面导航",
@@ -528,12 +528,12 @@ window.MING_I18N = {
     "en": "Chinese and English ASR evaluation"
   },
   "t132": {
-    "zh": "放大方言、高噪与领域识别评测图",
-    "en": "Enlarge dialect, noise, and domain evaluation"
+    "zh": "放大方言与领域识别评测图",
+    "en": "Enlarge dialect and domain evaluation"
   },
   "t133": {
-    "zh": "方言、高噪与领域识别评测图",
-    "en": "Dialect, noise, and domain evaluation"
+    "zh": "方言与领域识别评测图",
+    "en": "Dialect and domain evaluation"
   },
   "t134": {
     "zh": "放大Context ASR评测图",
@@ -560,8 +560,8 @@ window.MING_I18N = {
     "en": "Ming-3.0-asr-tiny is a lightweight speech recognition model from InclusionAI. Built on Ling-tiny-v3 and an audio encoder, it brings Chinese and English transcription, dialect recognition, and context-aware ASR into one model. Hotwords and preceding dialogue help recognize names, places, and specialized terminology across a range of transcription scenarios."
   },
   "hero-intro-rich": {
-    "zh": "真实语音中既有口音与背景噪声，也有陌生的人名和专业术语。<strong>Ming-3.0-asr-tiny</strong> 基于 Ling-tiny-v3 语言骨干与音频编码器构建，将中英文转写、方言识别与 Context ASR 融合在同一模型中。除了音频本身，模型还可利用<strong>领域热词与对话上文</strong>，帮助识别特定场景中的人名、地名、产品名和专业表达。评测覆盖方言测试集、聊天、政务、健康、知识、本地生活五类领域，以及高噪语音场景。",
-    "en": "Real-world speech contains accents, background noise, unfamiliar names, and specialized terminology. Built on the Ling-tiny-v3 language backbone and an audio encoder, <strong>Ming-3.0-asr-tiny</strong> unifies Chinese and English transcription, dialect recognition, and Context ASR in one model. Beyond the audio itself, <strong>domain hotwords and preceding dialogue</strong> provide context for names, places, products, and specialized expressions. Evaluation covers dialect test sets, five domains—chat, government services, health, knowledge, and local services—and noisy speech."
+    "zh": "一个模型，识别中英文、方言与真实场景中的复杂语音。加入<strong>热词或对话上文</strong>，帮助听清陌生的人名、地名与专业术语。",
+    "en": "One model for Chinese and English speech, dialects, and challenging real-world audio. Add <strong>hotwords or dialogue context</strong> to recognize unfamiliar names, places, and specialized terms."
   },
   "chart-bilingual-aria": {
     "zh": "公开中英文评测 · 平均错误率（%）↓",

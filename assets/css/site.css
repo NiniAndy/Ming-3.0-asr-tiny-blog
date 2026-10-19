@@ -63,3 +63,45 @@ h1{font-size:clamp(44px,6vw,78px)}h2{font-size:clamp(30px,3vw,42px)}h3{font-size
 .release-film video{display:block;width:100%;aspect-ratio:16/9;background:#12243c;border-radius:14px;box-shadow:0 20px 45px #123a6920}
 @media(max-width:950px){.release-film-card{grid-template-columns:1fr;gap:22px}.features{grid-template-columns:1fr}}
 @media(max-width:640px){body{font-size:16px}.section{padding:54px 0}.hero-intro,html[lang="en"] .hero-intro{font-size:16px}.hero-en{font-size:14px}.button{font-size:13px}.metric small,html[lang="en"] .metric small,.metric p,html[lang="en"] .metric p{font-size:12px}.intro,.sub,.sample-intro{font-size:16px}.feature h3,html[lang="en"] .feature h3{font-size:20px}.feature>p,html[lang="en"] .feature>p{font-size:15px}.cap-axis,.cap-row{grid-template-columns:125px minmax(0,1fr) 38px}.cap-model,.cap-values,.paired .cap-values{font-size:11px}.cap-chart-heading,.cap-chart-legend,.feature .cap-chart-note{font-size:12px}.sample-results dd{font-size:16px}.benchmark-figure{padding:18px}.benchmark-figure h3{font-size:18px}.benchmark-figure figcaption p{font-size:12px}.release-film{padding:40px 0 0}.release-film-card{padding:22px;border-radius:16px}.release-film-copy p{font-size:16px}}
+
+/* Release-page composition. */
+:root{--ink:#11243a;--muted:#51677d;--blue:#1467e8;--line:#dce6f0;--pale:#f4f8fc}
+.topbar{height:78px;box-shadow:0 3px 18px #12243c09}
+.brand-logo{width:36px;height:36px;border-radius:7px;object-fit:cover}
+.brand{font-size:19px;letter-spacing:-.35px}.brand small{font-size:11px;letter-spacing:1.7px;text-transform:uppercase}
+.hero{background:radial-gradient(circle at 93% 8%,#194978 0,transparent 40%),radial-gradient(circle at 5% 97%,#164777 0,transparent 36%),linear-gradient(135deg,#081c32,#0d3152 70%,#102f4c);color:white}
+.hero:before{background-image:linear-gradient(#ffffff0b 1px,transparent 1px),linear-gradient(90deg,#ffffff0b 1px,transparent 1px);opacity:.48}
+.hero-inner{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,.75fr);column-gap:70px;align-content:center;text-align:left;padding-top:104px;padding-bottom:100px}
+.hero-inner>:not(.metrics){grid-column:1}.hero .pill{justify-self:start;background:#ffffff14;border-color:#ffffff42;color:#b8ddff;font-size:12px}
+.hero .dot{background:#3cc6ff}.hero h1{font-size:clamp(48px,5.2vw,75px);margin:24px 0 18px;letter-spacing:-3.5px;color:#fff}
+.hero h1 .ming{color:#5ac2ff}.hero .tagline,.hero .hero-en{color:#f5faff;text-align:left}
+.hero .tagline{font-size:clamp(23px,2.35vw,34px);font-weight:650}.hero .hero-en{font-size:16px;color:#93c5ed}
+.hero-intro,html[lang="en"] .hero-intro{margin:26px 0 0;color:#c2d5e8;text-align:left;font-size:17px;line-height:1.85}
+.hero-intro strong{color:#fff}.hero .actions{justify-content:flex-start;margin-top:34px}
+.hero .button.primary{background:#329bf0;border-color:#329bf0;color:#fff;box-shadow:0 10px 30px #0003}
+.hero .button:not(.primary){background:#ffffff0c;color:#fff;border-color:#ffffff55}
+.hero .button:not(.primary):hover{background:#ffffff22}.hero .author{display:flex;align-items:center;gap:8px;margin:26px 0 0;color:#a3c9e7;font-size:13px}
+.hero .author img{width:24px;height:28px;object-fit:contain}.hero .signal{display:none}
+.hero .metrics{grid-column:2;grid-row:1/span 8;align-self:center;display:grid;grid-template-columns:1fr 1fr;gap:0;padding:0;background:#fff;color:#18324e;border:1px solid #ffffff99;border-radius:20px;box-shadow:0 30px 80px #0004;overflow:hidden}
+.hero .metric{min-height:188px;padding:32px 23px;border-right:1px solid #e5edf5;border-bottom:1px solid #e5edf5}
+.hero .metric:nth-child(2){border-right:0}.hero .metric:nth-child(n+3){border-bottom:0}.hero .metric:last-child{border-right:0}
+.hero .metric .value{font-size:46px;letter-spacing:-2px;color:#14345b;margin:14px 0 10px}
+.hero .metric .value span{font-size:20px;color:#7c9ab6}.hero .metric small{font-weight:650;color:#4e6782}
+.hero .metric p{color:#698099}.hero .provenance{color:#abc3dc}
+.release-film{padding:86px 0;background:#fff}.release-film-card{grid-template-columns:minmax(240px,.6fr) minmax(0,1.4fr);padding:38px;border:0;border-radius:24px;background:#edf4fb;gap:54px}
+.release-film-copy h2{font-size:clamp(36px,3.5vw,50px);line-height:1.2;letter-spacing:-1.5px}
+.release-film-copy p{max-width:340px}.release-film video{border-radius:15px;box-shadow:0 24px 50px #123a6930}
+.provenance{padding-top:24px;font-size:12px}
+#overview{background:#fbfdff}.section-head{margin-bottom:36px}.section-head h2{max-width:800px}
+.feature{border:1px solid #dce7f1;border-radius:18px;box-shadow:0 12px 35px #163a5c07;transition:transform .2s,box-shadow .2s}
+.feature:hover{transform:translateY(-3px);box-shadow:0 20px 45px #163a5c12}
+.feature-icon{width:46px;height:46px;background:#e8f3ff}.feature h3{letter-spacing:-.4px}
+.cap-chart{margin-top:auto;padding-top:23px}.cap-row.ours{background:#edf6ff;border-radius:6px;padding:3px 5px;margin:0 -5px}
+.samples-section{background:#f5f9fd}.sample-card{border-radius:17px;box-shadow:0 12px 35px #153c6308}
+.benchmark-section{background:#edf3f9}.benchmark-figures{gap:30px}
+.benchmark-figure{border:0;border-radius:20px;box-shadow:0 16px 45px #1439590a}
+.benchmark-figure .figure-zoom img{max-width:100%}
+.resource-panel{border-radius:20px}.code-card{border-radius:12px}
+@media(max-width:1050px){.hero-inner{column-gap:32px}.hero .metric{min-height:165px;padding:24px 16px}.hero .metric .value{font-size:38px}}
+@media(max-width:760px){.hero-inner{display:block;padding-top:68px;padding-bottom:62px}.hero h1{font-size:clamp(40px,10vw,60px);letter-spacing:-2.3px}.hero .metrics{margin-top:38px;grid-template-columns:1fr 1fr}.hero .metric{min-height:145px;padding:22px}.hero .metric .value{font-size:38px}.release-film{padding:55px 0}.release-film-card{display:block;padding:22px}.release-film-copy p{max-width:none}.release-film video{margin-top:24px}.feature:hover{transform:none}}
+@media(max-width:640px){.topbar{height:102px}.hero-inner{padding-top:55px;padding-bottom:55px}.hero .tagline{font-size:23px}.hero-intro,html[lang="en"] .hero-intro{font-size:15px;line-height:1.8}.hero .metric{min-height:138px;padding:18px 13px}.hero .metric small,html[lang="en"] .hero .metric small,.hero .metric p,html[lang="en"] .hero .metric p{font-size:11px}.hero .metric .value{font-size:34px}.hero .metric .value span{font-size:16px}.brand-logo{width:30px;height:30px}.release-film-copy h2{font-size:31px}.feature{padding:22px}.cap-axis,.cap-row{grid-template-columns:115px minmax(0,1fr) 35px}}
