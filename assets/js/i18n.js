@@ -662,5 +662,25 @@ window.MING_I18N = {
   "github-pending": {
     "zh": "GitHub · 查看代码",
     "en": "GitHub · View code"
+  },
+  "release-film-eyebrow": {
+    "zh": "MING 3.0 · 发版视频",
+    "en": "MING 3.0 · RELEASE FILM"
+  },
+  "release-film-title": {
+    "zh": "听见更丰富的世界",
+    "en": "Hear more of the world"
+  },
+  "release-film-desc": {
+    "zh": "通过这段短片了解 Ming-3.0-asr-tiny 的语音识别能力与使用场景。",
+    "en": "Discover the speech recognition capabilities and use cases of Ming-3.0-asr-tiny."
+  },
+  "release-film-aria": {
+    "zh": "Ming-3.0-asr-tiny 发版视频",
+    "en": "Ming-3.0-asr-tiny release film"
+  },
+  "release-film-fallback": {
+    "zh": "观看视频",
+    "en": "Watch the film"
   }
 };

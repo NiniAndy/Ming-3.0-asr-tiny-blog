@@ -33,3 +33,33 @@
 
 /* Introductory video slot shared by the Chinese and English layouts. */
 a[data-pending-link][aria-disabled="true"]{cursor:default;color:#94a2b2;pointer-events:auto}.actions a[data-pending-link][aria-disabled="true"]{background:#f6f8fc;color:#8293a8;border-color:#dce5ef;box-shadow:none}.actions a[data-pending-link][aria-disabled="true"]:hover{transform:none;background:#f6f8fc}a[data-pending-link][aria-disabled="true"]:hover{text-decoration:none}
+
+/* Publication typography and film. */
+body{font-size:17px}.wrap{max-width:1320px}.section{padding:84px 0}
+h1{font-size:clamp(44px,6vw,78px)}h2{font-size:clamp(30px,3vw,42px)}h3{font-size:22px}
+.hero-intro,html[lang="en"] .hero-intro{font-size:18px;line-height:1.85;max-width:960px}
+.tagline,html[lang="en"] .tagline{font-size:clamp(23px,2.5vw,32px)}
+.hero-en{font-size:17px}.button{font-size:15px;padding:13px 22px}
+.metric small,html[lang="en"] .metric small,.metric p,html[lang="en"] .metric p{font-size:14px}
+.provenance,.eyebrow{font-size:13px}.intro,.sub,.sample-intro{font-size:17px;line-height:1.8}
+.feature{padding:30px}.feature h3,html[lang="en"] .feature h3{font-size:23px}
+.feature>p,html[lang="en"] .feature>p{font-size:16px;min-height:0}
+.feature>small,.cap-chart-heading{font-size:13px}.cap-chart-legend{font-size:12px}
+.cap-axis,.cap-row{grid-template-columns:190px minmax(0,1fr) 48px}
+.cap-model,.cap-values,.paired .cap-values{font-size:13px}.cap-model small{font-size:10px}
+.feature .cap-chart-note,.source-note{font-size:13px}
+.sample-card{padding:30px}.sample-results dt{font-size:13px}.sample-results dd{font-size:17px}
+.sample-heading .eyebrow,.audio-duration,.audio-sources{font-size:13px}
+.architecture-copy p,.architecture-copy .spec-note,.architecture-figure figcaption{font-size:15px}
+.benchmark-figure{padding:32px}.benchmark-figure h3{font-size:25px}
+.benchmark-figure figcaption p,.zoom-hint{font-size:14px}
+.benchmark-figure .figure-zoom{background:#fff;border-radius:10px;overflow:hidden}
+.benchmark-figure .figure-zoom img{width:100%;height:auto}
+.runtime-note,.usage-notes p,.resource-panel p{font-size:15px}
+.release-film{padding:68px 0 20px;background:#fff}
+.release-film-card{display:grid;grid-template-columns:minmax(240px,.55fr) minmax(0,1.45fr);gap:46px;align-items:center;padding:34px;background:linear-gradient(125deg,#f0f6ff,#f8fbff);border:1px solid #d8e5f4;border-radius:22px}
+.release-film-copy h2{font-size:clamp(30px,3vw,42px);margin:16px 0}
+.release-film-copy p{font-size:17px;line-height:1.8;color:#52677f}
+.release-film video{display:block;width:100%;aspect-ratio:16/9;background:#12243c;border-radius:14px;box-shadow:0 20px 45px #123a6920}
+@media(max-width:950px){.release-film-card{grid-template-columns:1fr;gap:22px}.features{grid-template-columns:1fr}}
+@media(max-width:640px){body{font-size:16px}.section{padding:54px 0}.hero-intro,html[lang="en"] .hero-intro{font-size:16px}.hero-en{font-size:14px}.button{font-size:13px}.metric small,html[lang="en"] .metric small,.metric p,html[lang="en"] .metric p{font-size:12px}.intro,.sub,.sample-intro{font-size:16px}.feature h3,html[lang="en"] .feature h3{font-size:20px}.feature>p,html[lang="en"] .feature>p{font-size:15px}.cap-axis,.cap-row{grid-template-columns:125px minmax(0,1fr) 38px}.cap-model,.cap-values,.paired .cap-values{font-size:11px}.cap-chart-heading,.cap-chart-legend,.feature .cap-chart-note{font-size:12px}.sample-results dd{font-size:16px}.benchmark-figure{padding:18px}.benchmark-figure h3{font-size:18px}.benchmark-figure figcaption p{font-size:12px}.release-film{padding:40px 0 0}.release-film-card{padding:22px;border-radius:16px}.release-film-copy p{font-size:16px}}
